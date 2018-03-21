@@ -14,8 +14,7 @@ plugin:
     - azure
     - web
     - apps
-    
-    deploy:
+deploy:
   azure_web_apps:
     username: ecaterina.mirza@workland.com
     password: Tinkulita1990
