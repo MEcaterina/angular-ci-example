@@ -4,6 +4,12 @@ pipeline:
     commands: 
     - npm install
     - npm run-script build
+deploy:
+  azure_web_apps:
+    username: ecaterina.mirza@workland.com
+    password: Tinkulita1990
+    site: tinka-ci-example
+    force: true
 plugin:
   name: Azure Web Apps
   desc: Deploy or update a project on Azure Web Apps
@@ -13,9 +19,3 @@ plugin:
     - azure
     - web
     - apps
-deploy:
-  azure_web_apps:
-    username: ecaterina.mirza@workland.com
-    password: Tinkulita1990
-    site: tinka-ci-example
-    force: true
