@@ -4,7 +4,6 @@ pipeline:
     commands: 
     - npm install
     - npm build
-    - npm test
 plugin:
   name: Azure Web Apps
   desc: Deploy or update a project on Azure Web Apps
